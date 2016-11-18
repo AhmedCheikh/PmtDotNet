@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemtek.Console", "Wemtek.Console\Wemtek.Console.csproj", "{845139B6-2691-4144-AABF-54E7ED1D533C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemtek.Data", "Wemtek.Data\Wemtek.Data.csproj", "{479EA1E3-8975-4076-97BB-100FA86256B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemtek.Domain", "Wemtek.Domain\Wemtek.Domain.csproj", "{A236D8E9-E4C6-42AD-B908-900B797DA8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemtek.Service", "Wemtek.Services\Wemtek.Service.csproj", "{1A042BEF-151E-4955-A950-126F3CA1DBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wemtek.GUI", "Wemtek.GUI\Wemtek.GUI.csproj", "{C087F9EF-F997-43A6-B14D-C73F7B1D80EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Pattern", "Service.Pattern\Service.Pattern.csproj", "{04B7D471-C4B1-44B8-9A34-BE956DEFFCA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{845139B6-2691-4144-AABF-54E7ED1D533C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845139B6-2691-4144-AABF-54E7ED1D533C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845139B6-2691-4144-AABF-54E7ED1D533C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845139B6-2691-4144-AABF-54E7ED1D533C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479EA1E3-8975-4076-97BB-100FA86256B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479EA1E3-8975-4076-97BB-100FA86256B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479EA1E3-8975-4076-97BB-100FA86256B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479EA1E3-8975-4076-97BB-100FA86256B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A236D8E9-E4C6-42AD-B908-900B797DA8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A236D8E9-E4C6-42AD-B908-900B797DA8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A236D8E9-E4C6-42AD-B908-900B797DA8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A236D8E9-E4C6-42AD-B908-900B797DA8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A042BEF-151E-4955-A950-126F3CA1DBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A042BEF-151E-4955-A950-126F3CA1DBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A042BEF-151E-4955-A950-126F3CA1DBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A042BEF-151E-4955-A950-126F3CA1DBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C087F9EF-F997-43A6-B14D-C73F7B1D80EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C087F9EF-F997-43A6-B14D-C73F7B1D80EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C087F9EF-F997-43A6-B14D-C73F7B1D80EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C087F9EF-F997-43A6-B14D-C73F7B1D80EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B7D471-C4B1-44B8-9A34-BE956DEFFCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B7D471-C4B1-44B8-9A34-BE956DEFFCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B7D471-C4B1-44B8-9A34-BE956DEFFCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B7D471-C4B1-44B8-9A34-BE956DEFFCA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
