@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Wemtek.GUI.Models;
+using Wemtek.Domain.Entities;
 
 namespace Wemtek.GUI.Controllers
 {
@@ -20,6 +21,7 @@ namespace Wemtek.GUI.Controllers
 
         public AccountController()
         {
+            
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )

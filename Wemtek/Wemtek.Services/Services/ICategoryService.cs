@@ -10,7 +10,7 @@ using Wemtek.Domain.Entities;
 
 namespace Wemtek.Service.Services
 {
-    public interface ICompanyService : IService<category>
+    public interface ICategoryService : IService<category>
     {
 
     }

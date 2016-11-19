@@ -25,5 +25,19 @@ namespace Wemtek.GUI.Helpers
 
             );
         }
+
+         public static IEnumerable<SelectListItem>
+            ToSelectCatPerProject(this IEnumerable<category> name)
+        {
+            return name.OrderBy(c => c.idCategory).Select(r =>
+                   new SelectListItem
+                   {
+                       Text = r.name,
+                       Value = r.idCategory.ToString()
+
+                   }
+
+            );
+        }
     }
 }

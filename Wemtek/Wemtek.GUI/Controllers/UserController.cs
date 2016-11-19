@@ -66,10 +66,10 @@ namespace Wemtek.GUI.Controllers
         {
             userViewModel user = new userViewModel();
 
-            List<company> listcompany = new List<company>();
+            List<category> listcompany = new List<category>();
             listcompany = companieservice.GetMany().ToList();
 
-            user.companies = listcompany.ToSelectListItems(); 
+            //user.companies = listcompany.ToSelectListItems(); 
 
             return View(user);
         }

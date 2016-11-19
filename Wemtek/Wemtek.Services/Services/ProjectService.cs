@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 using Wemtek.Domain.Entities;
 using Wemtek.Domain.Infrastructure;
 
-
-
 namespace Wemtek.Service.Services
 {
-    public class CompanyService :  Service<category>, ICompanyService
+    public class ProjectService : Service<project>, IProjectService
     {
         private static IDatabaseFactory dbf = new DatabaseFactory();
         private static IUnitOfWork ut = new UnitOfWork(dbf);
 
-        public CompanyService()
-            : base(ut)
-        { 
+        public ProjectService():base(ut)
+        {
+            
         }
-
+        public void addProject(project p)
+        {
+            Add(p);
+            Commit();
+        }
+       
     }
 }
